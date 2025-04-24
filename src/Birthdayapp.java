@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Birthdayapp {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter your birthdayy (MM/dd/yyyy):");
+        System.out.println("Enter your birthday (MM/dd/yyyy):");
         String userInput = input.nextLine();
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
